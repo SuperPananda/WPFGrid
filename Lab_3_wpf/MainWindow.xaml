@@ -1,0 +1,38 @@
+﻿<Window x:Class="Lab_3_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_3_wpf"
+        mc:Ignorable="d"
+        Title="Graphic" Height="350" Width="700"
+        SizeChanged="Window_SizeChanged"
+        MouseMove="Window_MouseMove">
+    <DockPanel Name="gridMain" HorizontalAlignment="Stretch" LastChildFill="False" VerticalAlignment="Stretch" Background="#FF9DEE90">
+        <Canvas Name="Grid" HorizontalAlignment="Left" Height="226" Margin="15,24,0,0" VerticalAlignment="Top" Width="331" Background="#FFF7F6F6" />
+
+        <Grid DockPanel.Dock="Right" Name="gridManager" VerticalAlignment="Top" Width="214" Height="309">
+            <DataGrid x:Name="dataGridPoints" AutoGenerateColumns="False" 
+                      HorizontalAlignment="Left" Height="126" 
+                      Margin="10,10,0,0" 
+                      VerticalAlignment="Top" Width="188" ColumnWidth="90" SelectedCellsChanged="_SelectedCellsChanged" CellEditEnding="_CellEditEnding" SelectionChanged="_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="X"  Binding="{Binding X}" ClipboardContentBinding="{Binding X}" Width="1*"/>
+                    <DataGridTextColumn Header="Y" Binding="{Binding Y}" ClipboardContentBinding="{Binding Y}" Width="1*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <ComboBox x:Name="combobox1" SelectionChanged="SelectionChanged" HorizontalAlignment="Left" Margin="112,149,0,0" VerticalAlignment="Top" Width="86" />
+            <Button x:Name="buttonSave" Content="Save" HorizontalAlignment="Left" Margin="112,179,0,0" VerticalAlignment="Top" Width="86" Click="buttonSave_Click">
+            </Button>
+            <Button x:Name="buttonLoad" Content="Load" HorizontalAlignment="Left" Margin="112,204,0,0" VerticalAlignment="Top" Width="86" Click="buttonLoad_Click"/>
+            <Label x:Name="labelPosCur" Content="Позиция курсора:" HorizontalAlignment="Left" Margin="10,249,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="labelPosValue" Content="(?;?)" HorizontalAlignment="Left" Margin="124,249,0,0" VerticalAlignment="Top" Width="78" RenderTransformOrigin="0.449,1.885"/>
+            <Button Content="Del" HorizontalAlignment="Left" VerticalAlignment="Top" Width="86" Margin="112,229,0,0" Click="buttonDel_Click"/>
+            <Label Content="Graphic: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="51,149,0,0" Height="36" Width="56"/>
+        </Grid>
+        <Label x:Name="label1" Content="Graphic" Height="31" Margin="0,278,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-2.436,0.433"/>
+
+
+
+    </DockPanel>
+</Window>

@@ -1,0 +1,15 @@
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\bin\Debug\Lab_3_wpf.exe.config
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\bin\Debug\Lab_3_wpf.exe
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\bin\Debug\Lab_3_wpf.pdb
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\obj\Debug\Lab_3_wpf.csprojAssemblyReference.cache
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\obj\Debug\MainWindow.g.cs
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\obj\Debug\App.g.cs
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\obj\Debug\Lab_3_wpf_MarkupCompile.cache
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\obj\Debug\Lab_3_wpf_MarkupCompile.lref
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\obj\Debug\MainWindow.baml
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\obj\Debug\Lab_3_wpf.g.resources
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\obj\Debug\Lab_3_wpf.Properties.Resources.resources
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\obj\Debug\Lab_3_wpf.csproj.GenerateResource.cache
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\obj\Debug\Lab_3_wpf.exe
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\obj\Debug\Lab_3_wpf.pdb
+C:\Users\gnaty\source\repos\Lab_3_wpf\Lab_3_wpf\obj\Debug\Lab_3_wpf.csproj.CoreCompileInputs.cache
